@@ -5,8 +5,6 @@ import Spinner from './Components/spinner.jsx'
 import {useEffect , useState } from 'react'
 import {useDebounce} from 'react-use'
 import {  getTrendingMovies, updateSearchCount } from './appwrite.js';
-
-
 //API config here : 
 const API_BASE_URL = 'https://api.themoviedb.org/3' ; 
  
