@@ -1,10 +1,11 @@
 //import React from 'react'
-import MovieCard from './Components/MovieCard';
-import Search from './Components/Search'  
-import Spinner from './Components/Spinner'
+import MovieCard from './Components/MovieCard.jsx';
+import Search from './Components/Search.jsx'  
+import Spinner from './Components/spinner.jsx'
 import {useEffect , useState } from 'react'
 import {useDebounce} from 'react-use'
 import {  getTrendingMovies, updateSearchCount } from './appwrite.js';
+
 
 //API config here : 
 const API_BASE_URL = 'https://api.themoviedb.org/3' ; 
