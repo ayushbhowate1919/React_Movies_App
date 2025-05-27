@@ -13,5 +13,6 @@ A sleek and modern **React Movies App** that lets you explore the latest and mos
 
 🚀 **Try it out & star the repo if you like it!**  
      https://react-movies-app-topaz.vercel.app/
+     
 ---
  
